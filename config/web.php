@@ -50,6 +50,13 @@ $config = [
             ],
         ],
         */
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@app/views' => '@app/themes/adminlte'
+                ],
+            ],
+        ],
     ],
     'modules' => [
         'user' => [
